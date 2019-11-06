@@ -14,8 +14,9 @@ const int httpsPort = 443;
 
 String botId = "your-bot-id";
 String msg = "your-message";
+String uid = "your-userid";
 
-String url = "https://api.telegram.org/bot"+ botId +"/sendMessage?chat_id=1019456188&text="+ msg;
+String url = "https://api.telegram.org/bot"+ botId +"/sendMessage?chat_id="+uid+"&text="+ msg;
 
 // Use web browser to view and copy
 // SHA1 fingerprint of the certificate
